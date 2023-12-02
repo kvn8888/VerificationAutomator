@@ -1,5 +1,5 @@
 const fs = require('fs');
-import { jsonData } from './Parser';
+import { jsonData } from './csvToJson';
 // Initialize an object to hold the results
 let associatedHTML = {};
 
@@ -23,11 +23,6 @@ jsonData.forEach(item => {
     }
 });
 
-// Function to get HTML content (placeholder)
-function getHTMLContentForEmail(email) {
-    // Placeholder: Implement logic to retrieve HTML content based on email
-    return ""; // Return the HTML content as a string
-}
 
 // Write results to a JSON file
 fs.writeFile('AssociatedHTML.json', JSON.stringify(associatedHTML, null, 2), (err) => {
