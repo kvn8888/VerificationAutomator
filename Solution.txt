@@ -1,0 +1,5 @@
+Download Gmail through Google takeout
+Turn mbox into txt
+add headers to csv and change txt to csv
+modify path to csv in js
+npm install csv-parse
