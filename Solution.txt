@@ -1,5 +1,9 @@
 Download Gmail through Google takeout
 Turn mbox into txt
-add headers to csv and change txt to csv
-modify path to csv in js
-npm install csv-parse
+
+Start: 2152
+End: 2228
+Wanted: 2401
+
+Start:
+
