@@ -24,7 +24,7 @@ function mapData(jsonData) {
     });
 }
 
-function exportToFile(outputPath, ) {
+function exportToFile(outputPath, associatedHTML) {
     // Write results to a JSON file
     fs.writeFile('AssociatedHTML.json', JSON.stringify(associatedHTML, null, 2), (err) => {
         if (err) {
